@@ -15,5 +15,5 @@ sudo apt install -y qemu-kvm libvirt libvirt-client virt-install kvmtools
 #for gui install:
 #sudo apt install -y virt-manager virt-viewer
 
-echo CHECK KVM AVAILABILITY
+echo CHECK KVM AVAILABILITY...
 kvm-ok

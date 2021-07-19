@@ -26,4 +26,4 @@ sudo apt install -y build-essential
 sudo apt install -y nano vim
 
 #install helpers
-sudo apt install -y htop neofetch 
+sudo apt install -y htop neofetch screen tmux
