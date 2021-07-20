@@ -1,4 +1,4 @@
-# deb-helper
+# helper
 these are some scripts for debian/ubuntu systems that help me to configure them
 
 ## helper-scripts
