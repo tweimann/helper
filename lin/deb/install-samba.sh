@@ -30,5 +30,6 @@ sudo ufw allow samba
 
 #add a password
 sudo smbpasswd -a $USER
+sudo chown $USER /home/$USER/sambashare 
 
 echo "connect to it via \\\\server-ip\\sambashare"
