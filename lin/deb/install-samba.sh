@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-#get username
+#get the username
 echo "Please Enter your username"
 read USER
 
@@ -25,6 +25,7 @@ sudo echo "    path = /home/$USER/sambashare   " >> /etc/samba/smb.conf
 sudo echo "    read only = no                  " >> /etc/samba/smb.conf
 sudo echo "    browsable = yes                 " >> /etc/samba/smb.conf
 
+#start the samba service and allow it in the firewall (ufw)
 sudo service smbd restart
 sudo ufw allow samba
 
