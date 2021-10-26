@@ -12,7 +12,7 @@ these are some scripts for Linux® and Windows systems
 cd ./helper/
 sudo bash ./make-executable.sh
 ```
-## Note: you may not need sudo for the make-executable.sh file
+#### Note: you may not need sudo for the make-executable.sh file
 
 
 ###### Legal stuff:
