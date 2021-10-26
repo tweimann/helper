@@ -3,7 +3,7 @@ these are some scripts for Linux® and Windows systems
 
 | Distro        | Command                  |
 |---------------|--------------------------|
-| DEBIAN        | sudo apt install git     |
+| Debian        | sudo apt install git     |
 | SuSE/openSUSE | sudo zypper install git  |
 | Arch          | sudo pacman -S git       |
 | Fedora        | sudo dnf install git-all |
