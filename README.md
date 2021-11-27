@@ -1,12 +1,12 @@
 # helper
 these are some scripts for Linux® and Windows systems
 
-| Distro        | Command                  |
-|---------------|--------------------------|
-| Debian        | sudo apt install git     |
-| SuSE/openSUSE | sudo zypper install git  |
-| Arch          | sudo pacman -S git       |
-| Fedora        | sudo dnf install git-all |
+| Distro        | Command                                                                    |
+|---------------|----------------------------------------------------------------------------|
+| Debian        | sudo apt install git && git clone git://github.com/tweimann/helper.git     |
+| SuSE/openSUSE | sudo zypper install git && git clone git://github.com/tweimann/helper.git  |
+| Arch          | sudo pacman -S git && git clone git://github.com/tweimann/helper.git       |
+| Fedora        | sudo dnf install git-all && git clone git://github.com/tweimann/helper.git |
 
 ```
 cd ./helper/
