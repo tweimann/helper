@@ -13,8 +13,6 @@ these are some scripts for Linux® and Windows systems
 cd ./helper/
 bash ./make-executable.sh
 ```
-#### Note: you may not need sudo for the make-executable.sh file
-
 
 ###### Legal stuff:
 Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.
