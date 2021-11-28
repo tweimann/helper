@@ -10,7 +10,7 @@ these are some scripts for Linux® and Windows systems
 | Windows       | i have no clue lol                                                               |
 
 ```
-cd ./helper/
+cd ./helper/lin
 bash ./make-executable.sh
 ```
 
