@@ -3,10 +3,10 @@ these are some scripts for Linux®
 
 | Distro        | Command                                                                          |
 |---------------|----------------------------------------------------------------------------------|
-| Debian        | ```sudo apt install git && git clone git://github.com/tweimann/helper.git```     |
-| SuSE/openSUSE | ```sudo zypper install git && git clone git://github.com/tweimann/helper.git```  |
-| Arch          | ```sudo pacman -S git && git clone git://github.com/tweimann/helper.git```       |
-| Fedora        | ```sudo dnf install git-all && git clone git://github.com/tweimann/helper.git``` |
+| Debian        | ```sudo apt install git && git clone https://github.com/tweimann/helper.git```     |
+| SuSE/openSUSE | ```sudo zypper install git && git clone https://github.com/tweimann/helper.git```  |
+| Arch          | ```sudo pacman -S git && git clone https://github.com/tweimann/helper.git```       |
+| Fedora        | ```sudo dnf install git-all && git clone https://github.com/tweimann/helper.git``` |
 
 ```
 cd ./helper/lin
