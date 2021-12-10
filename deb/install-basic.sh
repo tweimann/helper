@@ -22,8 +22,8 @@ sudo apt install -y net-tools
 #install build tools
 sudo apt install -y build-essential
 
-#install editors
-sudo apt install -y nano vim
+#install editor
+sudo apt install -y nano
 
 #install helpers
 sudo apt install -y htop neofetch screen tmux
