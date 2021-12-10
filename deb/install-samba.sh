@@ -7,8 +7,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 #get the username
-echo "Please Enter your username"
-read USER
+USER=$(whoami)
 
 #install updates
 sudo apt -y update

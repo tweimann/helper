@@ -7,8 +7,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 #get the username
-echo "Please Enter your own username:"
-read USER
+USER=$(whoami)
 
 #install updates
 sudo pacman -Syu
