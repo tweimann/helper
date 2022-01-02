@@ -17,7 +17,8 @@ To update your local copy of this repository, ```cd``` into the ```helper/``` fo
 
 ## Please Note
 Scripts will most likely also work for derivatives of the given Distro.\
-This means that scripts for Debian will also work for Ubuntu, openSUSE will work for SuSE, etc.
+This means that scripts for Debian will also work for Ubuntu, openSUSE will work for SuSE, etc.\
++++This does not mean that scripts for Proxmox (a Debian Derivative) will work for Debian or Ubuntu+++
 
 <div style="position: absolute; bottom: 20px">
     <hr>
