@@ -16,7 +16,7 @@ sudo apt -y upgrade
 #install samba
 sudo apt install -y samba samba-common 
 
-#auto-add standard config
+#auto-add default config
 mkdir /home/$USER/sambashare
 sudo chown $USER /home/$USER/sambashare 
 sudo echo "[sambashare]                        " >> /etc/samba/smb.conf
