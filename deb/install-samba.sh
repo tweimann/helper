@@ -18,6 +18,7 @@ sudo apt install -y samba samba-common
 
 #auto-add standard config
 mkdir /home/$USER/sambashare
+sudo chown $USER /home/$USER/sambashare 
 sudo echo "[sambashare]                        " >> /etc/samba/smb.conf
 sudo echo "    comment = Samba on Ubuntu       " >> /etc/samba/smb.conf
 sudo echo "    path = /home/$USER/sambashare   " >> /etc/samba/smb.conf
@@ -30,6 +31,5 @@ sudo ufw allow samba
 
 #add a password
 sudo smbpasswd -a $USER
-sudo chown $USER /home/$USER/sambashare 
 
-echo "connect to it via \\\\server-ip\\sambashare"
+echo "connect to it via smb://[server-ip]/sambashare"
