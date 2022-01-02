@@ -18,6 +18,7 @@ sudo zypper install samba
 
 #auto-add standard config
 mkdir /home/$USER/sambashare
+sudo chown $USER /home/$USER/sambashare 
 sudo echo "[sambashare]                        " >> /etc/samba/smb.conf
 sudo echo "    comment = Samba on Ubuntu       " >> /etc/samba/smb.conf
 sudo echo "    path = /home/$USER/sambashare   " >> /etc/samba/smb.conf
@@ -32,6 +33,5 @@ sudo firewall-cmd --reload
 
 #add a password
 sudo smbpasswd -a $USER
-sudo chown $USER /home/$USER/sambashare 
 
 echo "connect to it via smb://[server-ip]/sambashare"
