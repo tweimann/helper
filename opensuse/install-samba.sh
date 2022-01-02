@@ -16,7 +16,7 @@ sudo zypper dup
 #install samba
 sudo zypper install samba
 
-#auto-add standard config
+#auto-add default config
 mkdir /home/$USER/sambashare
 sudo chown $USER /home/$USER/sambashare 
 sudo echo "[sambashare]                        " >> /etc/samba/smb.conf
