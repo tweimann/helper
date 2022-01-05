@@ -20,7 +20,5 @@ Scripts will most likely also work for derivatives of the given Distro.\
 This means that scripts for Debian will also work for Ubuntu, openSUSE will work for SuSE, etc.\
 +++This does not mean that scripts for Proxmox (a Debian Derivative) will work for Debian or Ubuntu+++
 
-<div style="position: absolute; bottom: 20px">
-    <hr>
-    Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.
-</div>
+#
+Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.
