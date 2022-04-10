@@ -36,6 +36,8 @@ read -p "Please enter y: " y
 read -p "Please enter z: " z
 echo "---------------------------------------"
 
+# if anyone wants to add an algorithm to check if the rule already exists feel free to do so, cuz i don't
+
 # set the iptables rules
 iptables -t nat -A PREROUTING -i $i -p tcp --dport $x -j DNAT --to-dest $y:$z # set the prerouting
 iptables -t nat -A POSTROUTING -d $y -p tcp --dport $z -j SNAT --to-source $s # set the postrouting
@@ -48,13 +50,20 @@ echo "---------------------------------------"
 # make values persistent?
 read -p "Save the values and make it persistent? [y/n]: " save
 if ($save = "y")
+then
     iptables-save > /etc/iptables/rules.v4
     echo "Config saved successfully (probably, i didn't include any error handling lol)"
 fi
 echo "---------------------------------------"
 
 # conclusion
-echo "you can now access" $y\:$z "from" $(curl -s myip.spdns.de)\:$x
+read -p "Show conclusion? (Will curl myip.spdns.de to get your IP) [y/n]" conclusion
+if ($conclusion = "y")
+then
+    echo "you can now access" $y\:$z "from" $(curl -s myip.spdns.de)\:$x
+fi
 echo "---------------------------------------"
 
+# exit
 echo "Exit."
+exit
