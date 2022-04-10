@@ -53,4 +53,8 @@ if ($save = "y")
 fi
 echo "---------------------------------------"
 
+# conclusion
+echo "you can now access" $y\:$z "from" $(curl -s myip.spdns.de)\:$x
+echo "---------------------------------------"
+
 echo "Exit."
